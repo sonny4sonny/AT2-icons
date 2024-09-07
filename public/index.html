@@ -17,45 +17,100 @@
 
 <body>
     <div class="row">
-        <div class="image-container"><img id="cir_id" src="img/cir.png" height="200" width="200"/></div>
-        <div class="image-container"><img id="tri_id"  src="img/tri.png" height="200" width="200"/></div>
-        <div class="image-container"><img id="squ_id" src="img/squ.png" height="200" width="200"/></div>
+        <div class="image-container"><img id="medi1_id" src="img/MEDI1.png" height="170" width="200"/></div>
+        <div class="image-container"><img id="sleep1_id"  src="img/SLEEP1.png" height="170" width="200"/></div>
+        <div class="image-container"><img id="breathe1_id" src="img/BREATHE1.png" height="200" width="200"/></div>
     </div>
 
     <div class="row">
-        <div class="image-container"><img src="img/hex.png" height="200" width="200"/></div>
-        <div class="image-container"><img src="img/rec.png" height="200" width="200"/></div>
-        <div class="image-container"><img src="img/sta.png" height="200" width="200"/></div>
+        <div class="image-container"><img id="nat1_id" src="img/NAT1.png" height="220" width="200"/></div>
+        <div class="image-container"><img id="mom1_id" src="img/MOM1.png" height="200" width="200"/></div>
+        <div class="image-container"><img id="mind1_id" src="img/MIND1.png" height="200" width="200"/></div>
         </div>
 
     <div class="row">
-        <div class="image-container"><img src="img/trr.png" height="200" width="200"/></div>
-        <div class="image-container"><img src="img/sqr.png" height="200" width="200"/></div>
-        <div class="image-container"><img src="img/her.png" height="200" width="200"/></div>
+        <div class="image-container"><img id="focus1_id"  src="img/FOCUS1.png" height="175" width="200"/></div>
+        <div class="image-container"><img id="rel1_id"  src="img/REL1.png" height="200" width="200"/></div>
+        <div class="image-container"><img id="gui1_id"  src="img/GUI1.png" height="200" width="200"/></div>
     </div>
 
-    <body style="background-color: aliceblue;"
+    <body style="background-color: rgb(31, 35, 69);"
 
 </body>
 
 
 <script>
-    const cir_variable = document.getElementById ('cir_id')
-    const cir_audio = new Audio ('sound/DOOR.mp3')
-    cir_variable.onpointerdown = () => {
-        cir_audio.play ()
-    cir_variable.src = 'img/tri.png'
-    setTimeout (() => cir_variable.src = 'img/cir.png' , 100)
+    const medi1_variable = document.getElementById ('medi1_id')
+    const medi1_audio = new Audio ('sound/DOOR.mp3')
+    medi1_variable.onpointerdown = () => {
+        medi1_audio.play ()
+    medi1_variable.src = 'img/medi2.png'
+    setTimeout (() => medi1_variable.src = 'img/medi1.png' , 1000)
     }
 
-    const tri_variable = document.getElementById ('tri_id')
-    const tri_audio = new Audio ('sound/DOOR2.mp3')
-    tri_variable.onpointerdown = () => tri_audio.play ()
-    tri_variable.onpointerover = () => {
-        tri_variable.src = 'img/her.png'
-        setTimeout(() => {
-            tri_variable.src = 'img/tri.png'
-        }, 1000);
-    }
+    const sleep1_variable = document.getElementById ('sleep1_id')
+    const sleep1_audio = new Audio ('sound/DOOR2.mp3')
+    sleep1_variable.onpointerdown = () => { 
+        sleep1_audio.play ()
+        sleep1_variable.src = 'img/sleep2.png'
+        setTimeout(() => sleep1_variable.src = 'img/sleep1.png' , 1000)
+        }
+      
+    const breathe1_variable = document.getElementById ('breathe1_id')
+    const breathe1_audio = new Audio ('sound/DOOR2.mp3')
+    breathe1_variable.onpointerdown = () => {
+        breathe1_audio.play ()
+        breathe1_variable.src = 'img/breathe2.png'
+        setTimeout (() => breathe1_variable.src = 'img/breathe1.png' , 1000)
+        }
+    
 
+    const nat1_variable = document.getElementById ('nat1_id')
+    const nat1_audio = new Audio ('sound/DOOR2.mp3')
+    nat1_variable.onpointerdown = () => {
+        nat1_audio.play ()
+        nat1_variable.src = 'img/nat2.png'
+        setTimeout (() => nat1_variable.src = 'img/nat1.png' , 1000)
+        }
+    
+    const mom1_variable = document.getElementById ('mom1_id')
+    const mom1_audio = new Audio ('sound/DOOR2.mp3')
+    mom1_variable.onpointerdown = () => {
+        mom1_audio.play ()
+        mom1_variable.src = 'img/mom2.png'
+        setTimeout (() => mom1_variable.src = 'img/mom1.png' , 1000)
+        }
+    
+    const mind1_variable = document.getElementById ('mind1_id')
+    const mind1_audio = new Audio ('sound/DOOR2.mp3')
+    mind1_variable.onpointerdown = () => {
+        mind1_audio.play ()
+        mind1_variable.src = 'img/mind2.png'
+        setTimeout (() => mind1_variable.src = 'img/mind1.png' , 1000)
+        }
+    
+    const focus1_variable = document.getElementById ('focus1_id')
+    const focus1_audio = new Audio ('sound/DOOR2.mp3')
+    focus1_variable.onpointerdown = () => {
+        focus1_audio.play ()
+        focus1_variable.src = 'img/focus2.png'
+        setTimeout (() => focus1_variable.src = 'img/focus1.png' , 1000)
+        }
+
+    const rel1_variable = document.getElementById ('rel1_id')
+    const rel1_audio = new Audio ('sound/DOOR2.mp3')
+    rel1_variable.onpointerdown = () => {
+        rel1_audio.play ()
+        rel1_variable.src = 'img/rel2.png'
+        setTimeout (() => rel1_variable.src = 'img/rel1.png' , 1000)
+        }
+
+    const gui1_variable = document.getElementById ('gui1_id')
+    const gui1_audio = new Audio ('sound/DOOR2.mp3')
+    gui1_variable.onpointerdown = () => {
+        gui1_audio.play ()
+        gui1_variable.src = 'img/gui2.png'
+        setTimeout (() => gui1_variable.src = 'img/gui1.png' , 1000)
+        }
 </script>
+G

@@ -17,21 +17,21 @@
 
 <body>
     <div class="row">
-        <div class="image-container"><img id="medi1_id" src="img/MEDI1.png" height="170" width="200"/></div>
-        <div class="image-container"><img id="sleep1_id"  src="img/SLEEP1.png" height="170" width="200"/></div>
-        <div class="image-container"><img id="breathe1_id" src="img/BREATHE1.png" height="200" width="200"/></div>
+        <div class="image-container"><img id="MEDI1_id" src="img/MEDI1.png" height="170" width="200"/></div>
+        <div class="image-container"><img id="SLEEP1_id"  src="img/SLEEP1.png" height="170" width="200"/></div>
+        <div class="image-container"><img id="BREATHE1_id" src="img/BREATHE1.png" height="200" width="200"/></div>
     </div>
 
     <div class="row">
-        <div class="image-container"><img id="nat1_id" src="img/NAT1.png" height="220" width="200"/></div>
+        <div class="image-container"><img id="NAT1_id" src="img/NAT1.png" height="220" width="200"/></div>
         <div class="image-container"><img id="MOM1_id" src="img/MOM1.png" height="200" width="200"/></div>
-        <div class="image-container"><img id="mind1_id" src="img/MIND1.png" height="200" width="200"/></div>
+        <div class="image-container"><img id="MIND1_id" src="img/MIND1.png" height="200" width="200"/></div>
         </div>
 
     <div class="row">
-        <div class="image-container"><img id="focus1_id"  src="img/FOCUS1.png" height="175" width="200"/></div>
-        <div class="image-container"><img id="rel1_id"  src="img/REL1.png" height="200" width="200"/></div>
-        <div class="image-container"><img id="gui1_id"  src="img/GUI1.png" height="200" width="200"/></div>
+        <div class="image-container"><img id="FOCUS1_id"  src="img/FOCUS1.png" height="175" width="200"/></div>
+        <div class="image-container"><img id="REL1_id"  src="img/REL1.png" height="200" width="200"/></div>
+        <div class="image-container"><img id="GUI1_id"  src="img/GUI1.png" height="200" width="200"/></div>
     </div>
 
     <body style="background-color: rgb(31, 35, 69);"
@@ -40,20 +40,20 @@
 
 
 <script>
-    const medi1_variable = document.getElementById ('medi1_id')
-    const medi1_audio = new Audio ('sound/DOOR.mp3')
-    medi1_variable.onpointerdown = () => {
-        medi1_audio.play ()
-    medi1_variable.src = 'img/medi2.png'
-    setTimeout (() => medi1_variable.src = 'img/medi1.png' , 1000)
+    const MEDI1_variable = document.getElementById ('MEDI1_id')
+    const MEDI1_audio = new Audio ('sound/DOOR.mp3')
+    MEDI1_variable.onpointerdown = () => {
+        MEDI1_audio.play ()
+    MEDI1_variable.src = 'img/MEDI2.png'
+    setTimeout (() => MEDI1_variable.src = 'img/MEDI1.png' , 1000)
     }
 
-    const sleep1_variable = document.getElementById ('sleep1_id')
-    const sleep1_audio = new Audio ('sound/DOOR2.mp3')
-    sleep1_variable.onpointerdown = () => { 
-        sleep1_audio.play ()
-        sleep1_variable.src = 'img/sleep2.png'
-        setTimeout(() => sleep1_variable.src = 'img/sleep1.png' , 1000)
+    const SLEEP1_variable = document.getElementById ('SLEEP1_id')
+    const SLEEP1_audio = new Audio ('sound/DOOR2.mp3')
+    SLEEP1_variable.onpointerdown = () => { 
+        SLEEP1_audio.play ()
+        SLEEP1_variable.src = 'img/SLEEP2.png'
+        setTimeout(() => SLEEP1_variable.src = 'img/SLEEP1.png' , 1000)
         }
       
     const breathe1_variable = document.getElementById ('breathe1_id')
